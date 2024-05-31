@@ -88,3 +88,50 @@ strong {
 em {
     color: #666;
 }
+
+
+/*card*/
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    text-align: center;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.card-text {
+    font-size: 1em;
+    color: #555;
+    margin: 8px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+}
+
+.item {
+    flex: 1; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: auto;
+    top: 50%;
+}
